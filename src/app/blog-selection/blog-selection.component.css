@@ -3,21 +3,17 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  justify-content: space-around;
 }
-
 .flex-child{
-  position: relative;
-  margin-top: 16px;
-}
+  /*position: relative;*/
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 15px;
 
-.card-width{
-  width: 22rem;
 }
-
-@media screen and (max-width: 766px) {
-  .card-width{
-    width: 90%;
-    margin: 0 auto;
+@media screen and (min-width: 768px) {
+  .flex-child{
+    max-width: 33.333333%;
   }
 }
