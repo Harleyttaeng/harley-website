@@ -1,0 +1,42 @@
+.page-content{
+  padding: 68px 34px;
+}
+@media screen and (min-width: 1081px){
+  .page-content{
+    margin-left: 15%;
+    margin-right: 5%;
+  }
+}
+.about-title{
+  padding: 0 17px 17px 17px;
+}
+.about-title h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+@media screen and (min-width: 645px){
+  .about-main{
+    display: flex;
+    justify-content: center;
+  }
+  .about-main-text, .about-main-picture {
+    padding: 20px;
+    width: 50%;
+  }
+  .profile-photo{
+    max-height: 408px;
+    max-width: 337px;
+  }
+}
+.profile-photo{
+  height: auto;
+  width: 100%;
+  border: 1px solid #e8e8e8;
+}
+.about-main-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(28,28,28,.9);
+}
