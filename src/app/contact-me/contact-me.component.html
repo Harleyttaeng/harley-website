@@ -1,3 +1,58 @@
-<p>
-  contact-me works!
-</p>
+<div class="header-wrapper">
+  <div class="contact-me-header">
+    <div>
+      <h1 class="contact-me-title">CONTACT ME</h1>
+    </div>
+  </div>
+</div>
+<div class="body-wrapper">
+  <div class="contact-me-message">
+    <h3>
+      Please feel free to drop me a message, I look forward to hearing from you
+    </h3>
+  </div>
+</div>
+<div class="contact-me-form-wrapper">
+  <form>
+    <fieldset>
+      <div class="form-title">
+        Name
+      </div>
+      <div class="form-flex-container">
+        <div class="caption form-flex-item-fname">
+          <input class="field-control" name="fname" x-autocompletetype="given-name" type="text" spellcheck="false" maxlength="30" data-title="First">
+          <div>First Name</div>
+        </div>
+        <div class="caption form-flex-item-lname">
+          <input class="field-control" name="fname" x-autocompletetype="family-name" type="text" spellcheck="false" maxlength="30" data-title="Last" >
+          <div>Last Name</div>
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="form-email">
+      <div class="form-title">
+        Email Address
+      </div>
+      <div class="caption">
+        <input class="field-control" name="email" x-autocompletetype="email" type="text" spellcheck="false" maxlength="30" data-title="First">
+      </div>
+    </div>
+
+
+    <div class="form-message">
+      <div class="form-title">
+        Leave a message
+      </div>
+      <div class="caption">
+        <textarea id="message-box" rows="4"></textarea>
+      </div>
+    </div>
+
+    <div class="form-send">
+      <button type="button" class="btn btn-outline-secondary" id="send-button">SEND</button>
+    </div>
+
+  </form>
+</div>
+
