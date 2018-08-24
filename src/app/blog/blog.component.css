@@ -1,0 +1,64 @@
+#blog-border{
+  border-bottom: 1px solid #e8e8e8;
+}
+.blog-title{
+  padding: 232px 34px;
+}
+.background-photo{
+  background:url('/src/assets/HongKong.jpg') no-repeat center;
+  background-attachment: scroll;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.blog-title h1, h2{
+  color: white;
+}
+.blog-title h1 {
+  font-weight: bold;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;;
+}
+@media screen and (min-width: 768px){
+  .blog-title h1{
+    font-size: 55px;
+  }
+  .blog-title h2 {
+    font-size: 30px;
+  }
+}
+.blog-content{
+  padding: 100px 34px;
+}
+@media screen and (min-width: 992px){
+  .blog-title{
+    padding: 232px 120px;
+  }
+  .blog-content{
+    padding: 100px 120px ;
+     }
+}
+@media screen and (max-width: 435px){
+  .blog-title{
+    padding: 232px 0;
+  }
+  .blog-content{
+    padding: 100px 0;
+  }
+}
+.section-heading{
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 60px;
+  color: black;
+}
+.blog-content p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Lora,'Times New Roman',serif
+}
+.section-image{
+  width: 100%;
+  height: auto;
+}
