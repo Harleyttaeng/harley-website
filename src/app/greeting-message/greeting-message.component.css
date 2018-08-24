@@ -4,3 +4,13 @@
     margin-right: 18%;
   }
 }
+#greeting-message-border {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 576px){
+  .jumbotron{
+    padding: 5rem 2rem;
+
+  }
+}
